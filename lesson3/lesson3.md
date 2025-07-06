@@ -8,7 +8,7 @@ CREATE TABLE [IF NOT EXISTS] table_name (
    table_constraints
 );
 ```
-
+## create student table
 ```student SQL
 CREATE TABLE IF NOT EXISTS student(
     student_id SERIAL PRIMARY KEY,
