@@ -16,3 +16,8 @@ CREATE TABLE IF NOT EXISTS student(
     major VARCHAR(20) UNIQUE
 );
 ```
+
+## KILL
+```
+DROP TABLE student;
+```
