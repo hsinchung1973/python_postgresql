@@ -21,3 +21,10 @@ CREATE TABLE IF NOT EXISTS student(
 ```
 DROP TABLE student;
 ```
+## ADD
+```
+INSERT INTO student (name, major)
+VALUES ('育君', '歷史'), ('信忠','英語'),('小柱','數學')
+;
+
+```
