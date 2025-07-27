@@ -6,10 +6,8 @@
         "-y",
         "@modelcontextprotocol/server-postgres",
         "serve",
-        "--config",
-        {
-          "connection": "postgresql://postgres:raspberry@host.docker.internal:5432/db6238"
-        }
+        "--connection",
+        "postgresql://postgres:raspberry@host.docker.internal:5432/db6238"
       ]
     }
   }
