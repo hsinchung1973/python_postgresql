@@ -8,5 +8,5 @@
         "postgresql://postgres:raspberry@host.docker.internal:5432/db6238"
       ]
     }
-  },
+  }
 }
