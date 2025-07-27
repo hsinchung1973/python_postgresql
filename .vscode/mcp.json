@@ -1,13 +1,14 @@
-
 {
     "servers": {
-        "vscode_postgres": {
-        "command": "npx",
-        "args": [
-        "-y",
-        "@modelcontextprotocol/server-postgres",
-        "postgresql://postgres:respberry@host.docker.internal:5432/db6238"
-      ]
-    }
+        "my-postgres": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-postgres",
+                "postgresql://postgres:respberry@host.docker.internal:5432/db6238"
+            ],
+            "type": "stdio"
+        }
     },
+    "inputs": []
 }
