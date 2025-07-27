@@ -1,14 +1,21 @@
 {
+  "mcp": {
+    "inputs": [
+      {
+        "type": "promptString",
+        "id": "pg_url",
+        "description": "postgresql://postgres:respberry@host.docker.internal:5432/db6238"
+      }
+    ],
     "servers": {
-        "my-postgres": {
-            "command": "npx",
-            "args": [
-                "-y",
-                "@modelcontextprotocol/server-postgres",
-                "postgresql://postgres:respberry@host.docker.internal:5432/db6238"
-            ],
-            "type": "stdio"
-        }
-    },
-    "inputs": []
+      "postgres": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@modelcontextprotocol/server-postgres",
+          "${input:pg_url}"
+        ]
+      }
+    }
+  }
 }
