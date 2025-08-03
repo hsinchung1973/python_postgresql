@@ -9,6 +9,8 @@ https://meet.google.com/qbi-juyg-amj
 
 docker run -d --name my-conda hsinchung/conda_uv_nodejs:1.0 tail -f /dev/null
 
+docker run -d --name my-conda roberthsu2003/conda_uv_npx tail -f /dev/null
+
 
 docker run -d --name my-postgres -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=respberry -e POSTGRES_DB=postgres -p 5432:5432 postgres:latest
 
