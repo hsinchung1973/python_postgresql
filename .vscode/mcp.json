@@ -6,7 +6,7 @@
         "@modelcontextprotocol/server-postgres",
         "serve",
         "--connection-string",
-        "postgresql://postgres:raspberry@host.docker.internal:5432/db6238"
+        "postgresql://postgres:raspberry@host.docker.internal:5432/postgres"
       ]
     }
   }
