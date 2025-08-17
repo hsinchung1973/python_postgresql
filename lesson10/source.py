@@ -15,7 +15,8 @@ def get_stations_names():
             database=os.getenv("DATABASE"),
             user=os.getenv("USER"),
             password=os.getenv("PASSWORD"),
-            port="5432"
+            port="5432",
+            sslmode="require"
         )
 
         cursor = conn.cursor()
